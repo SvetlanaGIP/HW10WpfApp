@@ -23,10 +23,8 @@
                 <VisualBrush Visual="{Binding ElementName=myImage}">
                     <VisualBrush.Transform>
                         <ScaleTransform ScaleX="1" ScaleY="-1" CenterX="150" CenterY="90">
-                        
                         </ScaleTransform>
                     </VisualBrush.Transform>
-                    
                 </VisualBrush>
             </Border.Background>
             <Border.OpacityMask>
@@ -39,6 +37,5 @@
                 <SkewTransform CenterX="30" CenterY="2" AngleX="-30" AngleY="5"/>
             </Border.RenderTransform>
         </Border>
-
     </StackPanel>
 </Window>
